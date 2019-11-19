@@ -1,0 +1,22 @@
+{
+    "name": "dateti/country-czech-republic",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jan Galek",
+            "email": "admin@gcore.cz"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2",
+        "dateti/country": "@dev",
+        "dateti/holidays": "dev-master",
+        "dateti/localization-cs": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DateTi\\Country\\": "src/"
+        }
+    }
+}
