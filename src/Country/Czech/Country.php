@@ -2,6 +2,7 @@
 
 namespace DateTi\Countries\Czech;
 
+use DateTi\Holidays\Czech\Holidays;
 use DateTi\Holidays\EasterHolidayInterface;
 use DateTi\Holidays\HolidaysInterface;
 use DateTi\Localization\Czech\Localization;
@@ -17,7 +18,7 @@ class Country implements CountryInterface
 
     public function __construct(EasterHolidayInterface $easterHoliday)
     {
-        $this->holidays = new \DateTi\Holidays\Czech($easterHoliday);
+        $this->holidays = new Holidays($easterHoliday);
     }
 
     public function getHolidays(): HolidaysInterface
