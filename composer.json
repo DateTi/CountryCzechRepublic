@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DateTi\\Country\\": "src/"
+            "DateTi\\Countries\\Czech\\": "src/Country/Czech"
         }
     }
 }
